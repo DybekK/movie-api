@@ -1,5 +1,3 @@
-import { MaxLength, IsNotEmpty, IsString, IsNumber } from 'class-validator';
-
 export class MovieDto {
   constructor(
     title: string,
@@ -17,23 +15,11 @@ export class MovieDto {
 
   userId?: number | null;
 
-  @IsString()
-  @MaxLength(255)
-  @IsNotEmpty()
   readonly title: string;
 
-  @IsString()
-  @MaxLength(255)
-  @IsNotEmpty()
   readonly released: string;
 
-  @IsString()
-  @MaxLength(255)
-  @IsNotEmpty()
   readonly genre: string;
 
-  @IsString()
-  @MaxLength(255)
-  @IsNotEmpty()
   readonly director: string;
 }
