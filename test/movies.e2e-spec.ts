@@ -19,6 +19,8 @@ import { Model } from 'mongoose';
 import { MoviesModule } from '../src/movies/movies.module';
 import { randomNumber } from '../src/helpers/randomNumber';
 
+jest.setTimeout(10000);
+
 describe('MoviesController (e2e)', () => {
   let app: INestApplication;
 
