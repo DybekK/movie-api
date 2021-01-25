@@ -40,7 +40,7 @@ docker-compose up
  ```
 By default the service will start on port  `4200`
  
-### Now you can see see this app in action! 
+### Now you can see this app in action! 
 
 1. Generate token. 
 ```
@@ -156,7 +156,7 @@ Creates movie object with details using title provided by user
 	
     OR
     
-    -   **Code:**  401 FORBIDDEN
+    -   **Code:**  403 FORBIDDEN
     
         **Content:**  
         ```json
@@ -198,7 +198,7 @@ Creates movie object with details using title provided by user
     
 
     
-    -   **Code:**  401 FORBIDDEN
+    -   **Code:**  403 FORBIDDEN
     
         **Content:**  
         ```json
